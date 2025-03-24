@@ -1,5 +1,5 @@
 
-# Project 6 - *Translate*
+# Project 6 - *Translate Me*
 
 Submitted by: **Fiyinfoluwa Afolayan**
 
@@ -39,7 +39,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2025] [Fiyinfoluwa Afolayan
+    Copyright [2025] [Fiyinfoluwa Afolayan]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
