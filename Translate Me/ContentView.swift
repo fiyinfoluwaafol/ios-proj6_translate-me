@@ -44,10 +44,10 @@ struct ContentView: View {
                     .cornerRadius(8)
                 
                 // Navigation to HistoryView
-//                NavigationLink(destination: HistoryView(viewModel: viewModel)) {
-//                    Text("View Saved Translations")
-//                }
-//                .padding()
+                NavigationLink(destination: HistoryView(viewModel: viewModel)) {
+                    Text("View Saved Translations")
+                }
+                .padding()
                 
                 Spacer()
             }
