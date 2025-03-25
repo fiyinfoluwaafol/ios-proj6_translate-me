@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1503882C2D924CC30075956B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1503882B2D924CC30075956B /* FirebaseAuth */; };
+		1503882E2D924CC30075956B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1503882D2D924CC30075956B /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		153BDB9C2D920F9C00FC2603 /* Translate Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Translate Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1503882C2D924CC30075956B /* FirebaseAuth in Frameworks */,
+				1503882E2D924CC30075956B /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 			);
 			name = "Translate Me";
 			packageProductDependencies = (
+				1503882B2D924CC30075956B /* FirebaseAuth */,
+				1503882D2D924CC30075956B /* FirebaseFirestore */,
 			);
 			productName = "Translate Me";
 			productReference = 153BDB9C2D920F9C00FC2603 /* Translate Me.app */;
@@ -94,6 +103,9 @@
 			);
 			mainGroup = 153BDB932D920F9C00FC2603;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1503882A2D924CC30075956B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 153BDB9D2D920F9C00FC2603 /* Products */;
 			projectDirPath = "";
@@ -324,6 +336,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1503882A2D924CC30075956B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1503882B2D924CC30075956B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1503882A2D924CC30075956B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1503882D2D924CC30075956B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1503882A2D924CC30075956B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 153BDB942D920F9C00FC2603 /* Project object */;
 }

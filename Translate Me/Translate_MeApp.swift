@@ -6,9 +6,15 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct Translate_MeApp: App {
+    
+    init() { // <-- Add an init
+           FirebaseApp.configure() // <-- Configure Firebase app
+       }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
