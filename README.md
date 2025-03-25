@@ -3,18 +3,18 @@
 
 Submitted by: **Fiyinfoluwa Afolayan**
 
-**Name of your app** is an app that ... [TODO] 
+**Translate Me** is an app that translates from English to Spanish, and allows the user to be able to store a history of the translations done, as well as the choice to clear all saved translations.
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] Users open the app to a TranslationMe home page with a place to enter a word, phrase or sentence, a button to translate, and another field that should initially be empty
-- [ ] When users tap translate, the word written in the upper field translates in the lower field. The requirement is only that you can translate from one language to another.
-- [ ] A history of translations can be stored (in a scroll view in the same screen, or a new screen)
-- [ ] The history of translations can be erased
+- [x] Users open the app to a TranslationMe home page with a place to enter a word, phrase or sentence, a button to translate, and another field that should initially be empty
+- [x] When users tap translate, the word written in the upper field translates in the lower field. The requirement is only that you can translate from one language to another.
+- [x] A history of translations can be stored (in a scroll view in the same screen, or a new screen)
+- [x] The history of translations can be erased
  
 The following **optional** features are implemented:
 
